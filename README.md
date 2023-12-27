@@ -69,7 +69,8 @@ Go to [IntelliJ IDEA](https://www.jetbrains.com/idea/) and download the IDE.
 2. Open the project in your preferred IDE (e.g., IntelliJ IDEA).
 3. Run the main application file (`HelloApplication.java`) to launch the calculator.
 
-![Calculator Interface](C:\Users\danie\Desktop\Razvi\UTCN\Anul 2\OOP\Screenshots Calculator\RunHelloApp.png)
+![Calculator Interface](https://github.com/BobosRazvan/MultiFunctionalCalculator/blob/main/RunHelloApp.png)
+
 
 ##Features
 
