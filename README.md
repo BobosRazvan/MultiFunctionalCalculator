@@ -60,7 +60,7 @@ Go to [IntelliJ IDEA](https://www.jetbrains.com/idea/) and download the IDE.
 3. Select the path where you set up SceneBuilder(.exe file).
 4. Once done click on Open In SceneBuilder.
 
- 
+
 # Usage
 
 ## Run the desktop application
@@ -72,5 +72,60 @@ Go to [IntelliJ IDEA](https://www.jetbrains.com/idea/) and download the IDE.
 ![Calculator Interface](https://github.com/BobosRazvan/MultiFunctionalCalculator/blob/main/RunHelloApp.png)
 
 
-##Features
+## Features
+
+### User Interface 
+Intuitive Design : JavaFX provides a visually appealing and intuitive user interface, enhancing the overall user experience.
+
+### User Authentication and Authorization 
+Secure Login and Register : Implement a robust authentication system to ensure only registered personnel can access the system. 
+After the user logs in or registers in the app, you can begin performing arithmetic operations, currency conversions, date calculations and base conversions while maintaining a personalized history of calculations.
+
+![Login](https://github.com/BobosRazvan/MultiFunctionalCalculator/blob/main/Login.png)
+
+### Arithmetic Calculator
+
+To use the arithmetic calculator, simply press the buttons corresponding to numbers and mathematical symbols to input your calculation. Once you've entered the expression, press the equal button to obtain the result. The calculator's intuitive button layout makes it easy to perform arithmetic operations swiftly and accurately.
+
+![Arithmetic Calculator](https://github.com/BobosRazvan/MultiFunctionalCalculator/blob/main/Login.png)
+
+
+### Currency Converter
+
+To utilize the currency converter, follow these simple steps:
+
+1. Use the provided combo box to select the source and target currencies for conversion.
+2. Input numerical values using the dedicated number buttons.
+3. Press the equal button to calculate and display the converted currency value.
+
+The currency converter's user-friendly interface, featuring a combination of a combo box and intuitive buttons, ensures a seamless and efficient currency conversion experience.
+
+![Currency Converter](https://github.com/BobosRazvan/MultiFunctionalCalculator/blob/main/CurrencyConverter.png)
+
+### Date Calculation
+
+To perform date calculations using the date calculator, follow these straightforward steps:
+
+1. Utilize the date picker to select the two dates you want to compare.  
+2. The calculator will automatically compute the difference between the selected dates in years, months, and days.  
+3. The result will be displayed, providing you with a clear understanding of the time span between the chosen dates.
+The date calculator simplifies the process of determining the temporal gap between two selected dates, enhancing your ability to manage date-related calculations effortlessly.
+
+![Date Calculator](https://github.com/BobosRazvan/MultiFunctionalCalculator/blob/main/DateCalculation.png)
+
+### Programmer
+
+To utilize the base calculator for decimal number calculations, follow these steps:
+
+1. Input decimal numbers using the provided number buttons.
+Press the "Calculate" button to obtain the result in decimal representation.
+
+2.  Optionally, press buttons to view the binary, hexadecimal, and octal representations of the calculated result.
+
+3. The base calculator streamlines calculations with decimal numbers, offering the flexibility to view alternate representations effortlessly, including binary, hexadecimal, and octal formats.
+
+
+![Programmer](https://github.com/BobosRazvan/MultiFunctionalCalculator/blob/main/Programmer.png)
+
+
 
