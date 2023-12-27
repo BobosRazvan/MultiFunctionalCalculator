@@ -130,7 +130,7 @@ Press the "Calculate" button to obtain the result in decimal representation.
 
 ## Project Structure
 
-The project structure revolves around distinct controller classes, each dedicated to managing the functionality of specific FXML files, such as the login page, arithmetic calculator, date conversion, currency conversion, and base conversion. Additionally, a vital component is the JavaPostgre class, responsible for establishing a connection with the PostgreSQL database. Lastly, the HelloApplication class serves as the orchestrator of the application, overseeing scene changes and ensuring smooth navigation between different components.
+The project structure revolves around distinct controller classes, each dedicated to managing the functionality of specific FXML files, such as the login page, arithmetic calculator, date conversion, currency conversion and base conversion. Additionally, a vital component is the JavaPostgre class, responsible for establishing a connection with the PostgreSQL database. Lastly, the HelloApplication class serves as the orchestrator of the application, overseeing scene changes and ensuring smooth navigation between different components.
 
 ### The Database
 
