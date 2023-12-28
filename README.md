@@ -3,6 +3,7 @@
 
 The JavaFX Multifunctional Calculator is a versatile desktop application designed to provide users with a comprehensive set of mathematical functions while offering a convenient way to store and retrieve calculation history. The calculator seamlessly integrates with a PostgreSQL database to enable personalized user experiences, including persistent calculation history.
 
+Note: The JavaFX project is on the master branch.
 
 ## Built with
 
