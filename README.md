@@ -1,6 +1,8 @@
+
 # Multifunctional Calculator
 
 The JavaFX Multifunctional Calculator is a versatile desktop application designed to provide users with a comprehensive set of mathematical functions while offering a convenient way to store and retrieve calculation history. The calculator seamlessly integrates with a PostgreSQL database to enable personalized user experiences, including persistent calculation history.
+
 
 ## Built with
 
@@ -8,7 +10,6 @@ The JavaFX Multifunctional Calculator is a versatile desktop application designe
 - Java version 20
 - PostGreSql version 15
 - CSS
-
 
 # Table of Contents
 1. [Title and Description](#Multifunctional-Calculator)
@@ -21,9 +22,37 @@ The JavaFX Multifunctional Calculator is a versatile desktop application designe
 - [Setting up IDE to use JDK](#Setting-up-IDE-to-use-JDK)
 - [Setting up IDE to use JavaFX Scene Builder](#Setting-up-IDE-to-use-JavaFX-Scene-Builder)
 4. [Usage](#Usage)
+- [Run the desktop application](#Run-the-desktop-application)
+     - [Ensure you have Java and SceneBuilder installed](#1-Ensure-you-have-Java-and-SceneBuilder-installed)
+     - [Open the project in your preferred IDE (e.g., IntelliJ IDEA)](#2-Open-the-project-in-your-preferred-IDE-e.g.-IntelliJ-IDEA)
+     - [Run the main application file (`HelloApplication.java`)](#3-Run-the-main-application-file-HelloApplication.java-to-launch-the-calculator)
+- [Features](#Features)
+     - [User Interface](#User-Interface)
+     - [User Authentication and Authorization](#User-Authentication-and-Authorization)
+     - [Arithmetic Calculator](#Arithmetic-Calculator)
+     - [Currency Converter](#Currency-Converter)
+     - [Date Calculation](#Date-Calculation)
+     - [Programmer](#Programmer)
 
+5. [Project Structure](#Project-Structure)
+- [The Database](#The-Database)
+     - [users table](#users-table)
+     - [calculations table](#calculations-table)
+     - [currency_converter table](#currency_converter-table)
+- [The Class Diagram](#The-Class-Diagram)
+   - [HelloApplication.java](#HelloApplication.java)
+   - [Login.java](#Login.java)
+   - [JavaPostgreSql.java](#JavaPostgreSql.java)
+   - [Calculator.java](#Calculator.java)
+   - [CurrencyConverter.java](#CurrencyConverter.java)
+   - [DateCalculation.java](#DateCalculation.java)
+   - [Programmer.java](#Programmer.java)
+   - [Calculator.css](#Calculator.css)
 
-  
+6. [Future Improvements](#Future-Improvements)
+7. [How To Contribute](#How-to-Contribute)
+8. [Inspiration & Sources](#Inspiration-&-Sources)
+9. [Contact](#Contact)
 # Instalation and Setup
 This tutorial uses [IntelliJ IDEA](https://www.jetbrains.com/idea/) and Java 20.
 
@@ -58,9 +87,7 @@ Go to [IntelliJ IDEA](https://www.jetbrains.com/idea/) and download the IDE.
 1. Once you open the IDE, create a FXML file.
 2. Right click on the screen. Open in SceneBuilder.
 3. Select the path where you set up SceneBuilder(.exe file).
-4. Once done click on Open In SceneBuilder.
-
-
+4. Once done click on Open In SceneBuilder. 
 # Usage
 
 ## Run the desktop application
@@ -87,7 +114,7 @@ After the user logs in or registers in the app, you can begin performing arithme
 
 To use the arithmetic calculator, simply press the buttons corresponding to numbers and mathematical symbols to input your calculation. Once you've entered the expression, press the equal button to obtain the result. The calculator's intuitive button layout makes it easy to perform arithmetic operations swiftly and accurately.
 
-![Arithmetic Calculator](https://github.com/BobosRazvan/MultiFunctionalCalculator/blob/main/ArithmeticCalculator.png)
+![Arithmetic Calculator](https://github.com/BobosRazvan/MultiFunctionalCalculator/blob/main/Login.png)
 
 
 ### Currency Converter
@@ -128,9 +155,11 @@ Press the "Calculate" button to obtain the result in decimal representation.
 ![Programmer](https://github.com/BobosRazvan/MultiFunctionalCalculator/blob/main/Programmer.png)
 
 
+
+
 ## Project Structure
 
-The project structure revolves around distinct controller classes, each dedicated to managing the functionality of specific FXML files, such as the login page, arithmetic calculator, date conversion, currency conversion and base conversion. Additionally, a vital component is the JavaPostgre class, responsible for establishing a connection with the PostgreSQL database. Lastly, the HelloApplication class serves as the orchestrator of the application, overseeing scene changes and ensuring smooth navigation between different components.
+The project structure revolves around distinct controller classes, each dedicated to managing the functionality of specific FXML files, such as the login page, arithmetic calculator, date conversion, currency conversion, and base conversion. Additionally, a vital component is the JavaPostgre class, responsible for establishing a connection with the PostgreSQL database. Lastly, the HelloApplication class serves as the orchestrator of the application, overseeing scene changes and ensuring smooth navigation between different components.
 
 ### The Database
 
@@ -747,7 +776,6 @@ CSS defines styles for a dark background root element, a gradient-filled main pa
 ```
 
 
-
 # Future Improvements
 1. Establish a connection with the BNR API to dynamically fetch real-time currency rate values, enhancing the accuracy and timeliness of the application's financial data.
 
@@ -766,5 +794,37 @@ CSS defines styles for a dark background root element, a gradient-filled main pa
 
 ![Graphics](https://github.com/BobosRazvan/MultiFunctionalCalculator/blob/main/graphics.png)
 
+# How to Contribute
+
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement". Don't forget to give the project a star! Thanks again!
+
+1. Fork the Project
+2. Create your Feature Branch (git checkout -b feature/AmazingFeature)
+3. Commit your Changes (git commit -m 'Add some AmazingFeature')
+4. Push to the Branch (git push origin feature/AmazingFeature)
+5. Open a Pull Request
+# Inspiration & Sources
 
 
+The primary source of inspiration stemmed from BroCode's Java tutorials, specifically his comprehensive 12-hour playlist, which I consider the most valuable resource. I will provide a link to this tutorial for reference.
+
+[Java Full Course](https://youtu.be/xk4_1vDrzzo?si=JVPqgFkOVOphi_N0)
+
+
+Additionally, I drew inspiration from the Windows 11 Calculator and its functionalities, serving as a catalyst for generating new ideas and designing my own model. This exploration allowed me to discover and incorporate innovative features.
+
+### Notable Sources
+
+1. [JavaFX Course by Random Code](https://youtube.com/playlist?list=PLrzWQu7Ajpi26jZvP8JhEJgFPFEj_fojO&si=-YgEAMXI9B96CZkq)
+
+2. [Database connection](https://youtu.be/J0IE5LRyzx8?si=EZarMcY26raF93eU)
+
+3. [Stack Overflow](https://stackoverflow.com/)
+
+
+# Contact
+
+* Email: bobosrazvan@gmail.com
+* [LinkedIn Account](https://www.linkedin.com/in/r%C4%83zvan-bobo%C8%99-9689202a6/)
