@@ -748,3 +748,23 @@ CSS defines styles for a dark background root element, a gradient-filled main pa
 
 
 
+# Future Improvements
+1. Establish a connection with the BNR API to dynamically fetch real-time currency rate values, enhancing the accuracy and timeliness of the application's financial data.
+
+![BNR](https://github.com/BobosRazvan/MultiFunctionalCalculator/blob/main/BNR.png)
+
+
+2. Enhance the User Interface by incorporating a more modern and visually appealing design, ensuring an improved overall user experience.
+
+![UI](https://github.com/BobosRazvan/MultiFunctionalCalculator/blob/main/calculatorIdeal.png)
+
+3. Strengthen the security measures of the application by implementing password hashing in the database, thereby enhancing data protection and ensuring a higher level of user account security.
+
+![Security](https://github.com/BobosRazvan/MultiFunctionalCalculator/blob/main/securityIdeal.png)
+
+4. Expand the functionality of the application by incorporating additional mathematically useful features(ex: Graphics), catering to a broader range of user needs and providing a more comprehensive and versatile tool.
+
+![Graphics](https://github.com/BobosRazvan/MultiFunctionalCalculator/blob/main/graphics.png)
+
+
+
