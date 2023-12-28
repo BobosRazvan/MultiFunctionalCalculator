@@ -114,7 +114,7 @@ After the user logs in or registers in the app, you can begin performing arithme
 
 To use the arithmetic calculator, simply press the buttons corresponding to numbers and mathematical symbols to input your calculation. Once you've entered the expression, press the equal button to obtain the result. The calculator's intuitive button layout makes it easy to perform arithmetic operations swiftly and accurately.
 
-![Arithmetic Calculator](https://github.com/BobosRazvan/MultiFunctionalCalculator/blob/main/Login.png)
+![Arithmetic Calculator](https://github.com/BobosRazvan/MultiFunctionalCalculator/blob/main/ArithmeticCalculator.png)
 
 
 ### Currency Converter
